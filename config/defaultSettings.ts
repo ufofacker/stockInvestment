@@ -2,7 +2,6 @@ import { Settings as LayoutSettings } from '@ant-design/pro-layout';
 
 export default {
   navTheme: 'light',
-  // 拂晓蓝
   primaryColor: '#1890ff',
   layout: 'mix',
   contentWidth: 'Fluid',
@@ -12,9 +11,9 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: '股票投资（Stock Investment）',
   pwa: false,
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+  logo: require('@/assets/logo.jpg'),
   iconfontUrl: '',
 } as LayoutSettings & {
   pwa: boolean;

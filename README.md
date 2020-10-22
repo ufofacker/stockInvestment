@@ -1,57 +1,11 @@
-# Ant Design Pro
+# 股票投资系统
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+系统帮助用户建立自己的股票池，用图表的形式来汇总企业的不同维度数据，从而推演发展趋势。通过更加合理的管理、分析策略来研判买卖时机。
 
-## Environment Prepare
+## 准备环境
 
-Install `node_modules`:
+安装 [Node 环境](https://nodejs.org/en/download/)
 
-```bash
-npm install
-```
+## 启动系统
 
-or
-
-```bash
-yarn
-```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+打开 windows 下 DOS 窗口，并执行 npm run start 启动系统
