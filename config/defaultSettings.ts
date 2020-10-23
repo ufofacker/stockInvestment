@@ -1,5 +1,5 @@
 import { Settings as LayoutSettings } from '@ant-design/pro-layout';
-
+// eslint-disable-next-line import/no-unresolved
 export default {
   navTheme: 'light',
   primaryColor: '#1890ff',
@@ -13,7 +13,6 @@ export default {
   },
   title: '股票投资（Stock Investment）',
   pwa: false,
-  logo: require('@/assets/logo.jpg'),
   iconfontUrl: '',
 } as LayoutSettings & {
   pwa: boolean;
